@@ -8,7 +8,6 @@ Landing-Page
 
 ## Project Description
 
-This page's aim is to promote a product which is an album of an artist called Allame.
+This page's aim is to promote a product which is an album of an artist called Allame. **Link to the page;**
 
-**Link to the page;**
 > [Landing-Page](https://aselesra.github.io/)
