@@ -1,0 +1,80 @@
+body {
+  overflow-x: hidden; /* no horizontal scrolling */
+  font-family: 'Montserrat', sans-serif;
+  color: #616971;
+}
+header{
+	height: 2.8rem; /* 1rem=16px */
+	padding: 0.5rem 0; /* 0.5(right&left), 0(top&bottom) */
+} 
+/* bg, covering the whole first section */
+.hero-img{
+	position: relative;
+	background-image: url("../img/hero.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+	height: 500px;
+}
+
+.firstSection .container{
+	font-family: Chalkduster, fantasy;
+	color: black;
+	padding-top: 230px;
+}
+
+.firstSection .container h1{
+	font-size: 90px;
+	letter-spacing: 0.2em;
+}
+
+h1{
+	color: black;
+	font-family: Didot, serif;
+	margin-left: 30px;
+	padding-bottom: 30px;
+}
+
+h2{
+	color: #363430;
+	font-family: American Typewriter, serif;
+}
+
+.padd-parag{
+	padding-right: 25px;
+	font-size: 30px;
+}
+.margBtn{
+	margin-left: 165px;
+	margin-top: -50px;
+}
+
+/*to make embedded video responsive*/
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#phoneNumber{
+	padding-left: 150px;
+	padding-top: 15px;
+}
+/*for all album images to be at the same width*/
+.smallWidth{
+	width: 200px;
+}
+
+/*for icon color*/
+.whiteTxt{
+	color: white;
+}
+.footerBg{
+	background-color: #202229;
+}
