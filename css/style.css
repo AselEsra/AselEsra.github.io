@@ -48,7 +48,24 @@ h2{
 	margin-top: -50px;
 }
 
-
+/*to make embedded video responsive*/
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#phoneNumber{
+	padding-left: 150px;
+	padding-top: 15px;
+}
 /*for all album images to be at the same width*/
 .smallWidth{
 	width: 200px;
