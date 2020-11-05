@@ -17,14 +17,12 @@ header{
 }
 
 .firstSection .container{
-	position: relative;
 	font-family: Chalkduster, fantasy;
 	color: black;
 	padding-top: 230px;
 }
 
 .firstSection .container h1{
-	position: relative;
 	font-size: 90px;
 	letter-spacing: 0.2em;
 }
